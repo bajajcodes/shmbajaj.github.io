@@ -1,0 +1,20 @@
+.section-bio-link{
+    text-decoration: none;
+    color:var(--primrary-color);
+}
+
+.section-bio-link:hover{
+    text-decoration: underline;
+}
+
+.social-link{
+    /* border: 1px solid black; */
+    margin:0rem .5rem;
+    /* padding:.5rem .1rem .1rem 0rem; */
+}
+
+.social-link .social-link-img{
+    border: 1px solid black;
+    max-width: 30px;
+}
+

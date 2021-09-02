@@ -1,0 +1,22 @@
+.writings-blog-head{
+    font-size: 1rem;
+    color:var(--dark-gray);
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+
+.writings-list-item{
+    font-weight: 500;
+    margin-bottom: .6rem;
+}
+
+.writings-link{
+    text-decoration: none;
+    color:rgb(0,0,0);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.writings-link:hover{
+    color:var(--primrary-color);
+}
