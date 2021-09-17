@@ -48,7 +48,7 @@ body{
 }
 
 .link-primrary{
-    border:1px solid var(--black-color);
+    border:2px solid var(--black-color);
     border-radius: .5rem;
     background-color: var(--primrary-color);
     color:var(--white-color);
