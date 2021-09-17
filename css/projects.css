@@ -46,6 +46,9 @@
     text-align: center;
 }
 
+h1{
+    margin: 0;
+}
 
 @media (max-width:1200px){
     .list-item-link-div{
