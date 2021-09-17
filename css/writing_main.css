@@ -8,9 +8,7 @@
 .writings-list-item{
     font-weight: 500;
     margin: 0;
-    /* border: 2px solid red; */
     margin-bottom: 2%;
-    /* margin-bottom: .rem; */
 }
 
 .writings-link{
@@ -26,7 +24,6 @@
 
 .writings-blog-div
 {
-    /* border:2px solid black; */
     margin:.5rem 0;
     padding:.5rem .2rem;
 }

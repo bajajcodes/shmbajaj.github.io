@@ -20,14 +20,12 @@ body{
 }
 
 .container{
-    /* border:2px solid rgb(206, 27, 27); */
     padding:.5rem 0;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .container-centered{
-    /* border:1px solid black; */
     height: 80%;
     max-width: 50%;
     margin:auto;
@@ -58,7 +56,6 @@ body{
     background-color: var(--white-color);
     color: var(--primrary-color);
     border:2px solid var(--primrary-color);
-    /* font-weight: 700; */
 }
 
 .link-secondary{
@@ -83,7 +80,6 @@ body{
 /* nav-bar */
 
 .nav-bar{
-    /* border:2px solid black; */
     height: 10%;
     margin-top:5px;
     display: flex;
@@ -101,10 +97,6 @@ body{
     margin:0px;
 }
 
-/* .nav-bar ul li a{
-    border: 2px solid black;
-} */
-
 .nav-bar-brand-link{
     color:var(--primrary-color);
     font-weight: bold;
@@ -112,7 +104,6 @@ body{
     text-decoration: none;
     font-size: 2.5vw;
     margin:0px;
-    /* font-size: 1.1rem; */
 }
 
 
@@ -139,7 +130,6 @@ body{
 /* main-header */
 
 .header-hero{
-    /* border: 2px solid brown; */
     padding:0rem 2rem;
 }
 
@@ -163,7 +153,6 @@ body{
 /* section */
 
 .section{
-    /* border:2px solid blue; */
     padding:.5rem 0;
     padding:1rem;
 }
@@ -199,8 +188,6 @@ body{
 
 .footer{
     height: 10%;
-    /* border:2px solid black; */
-    /* margin-right: 10%; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -330,7 +317,6 @@ ol,ul{
 @media (max-width:570px) {
 
     .nav-bar{
-        /* justify-content: flex-start; */
         align-items: flex-start;
     }
 
@@ -340,12 +326,10 @@ ol,ul{
         justify-content: center;
         gap:.3rem;
         font-size: 5vw;
-        /* border: 2px solid red; */
     }
 
     .nav-bar-brand-link{
         font-size: 6vw;
-        /* border: 2px solid black; */
     }
 
     .nav-bar .list-non-bullet .list-item-inline{
@@ -353,7 +337,6 @@ ol,ul{
     }
 
     .nav-bar .list-non-bullet .list-item-inline .nav-bar-link{
-        /* border: 2px solid green; */
         width: 100%;
     }
 
