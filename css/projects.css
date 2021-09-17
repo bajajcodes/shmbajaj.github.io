@@ -5,12 +5,12 @@
 
 .list-item-project{
     margin-bottom: .5rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .list-item-project h2,small,p,div{
     margin:0;
-    border:2px solid tomato;
+    /* border:2px solid tomato; */
 }
 
 .list-item-project h2{
