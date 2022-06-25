@@ -1,0 +1,42 @@
+{
+  "name": "shmbajaj.github.io",
+  "version": "2.0.0",
+  "description": "This is portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --progress --mode development",
+    "build": "webpack --progress --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmbajaj/shmbajaj.github.io.git"
+  },
+  "author": "Shubham Bajaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shmbajaj/shmbajaj.github.io/issues"
+  },
+  "homepage": "https://github.com/shmbajaj/shmbajaj.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "postcss-preset-env": "^7.7.2",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.1.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
