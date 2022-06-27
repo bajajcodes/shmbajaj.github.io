@@ -1,4 +1,19 @@
+import { Header, SocialLinks } from "components";
+import { Home, About, Portfolio, Technologies, Contact } from "pages";
+
 function App() {
-  return <h1 className="text-3xl text-red-500">Shubham Bajaj Portfolio</h1>;
+  return (
+    <>
+      <Header />
+      <main className="grid bg-black">
+        <Home />
+        <About />
+        <Portfolio />
+        <Technologies />
+        <Contact />
+        <SocialLinks />
+      </main>
+    </>
+  );
 }
 export { App };
