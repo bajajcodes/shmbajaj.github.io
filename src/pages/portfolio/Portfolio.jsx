@@ -11,7 +11,7 @@ function Portfolio() {
           <p className="text-4xl font-bold inline border-b-4 border-gray-400">
             Portfolio
           </p>
-          <p className="py-6">Check out my projects</p>
+          <p className="py-6">Check out my projects.</p>
         </div>
         <section className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] auto-rows-[1fr] gap-8">
           {projects.map(

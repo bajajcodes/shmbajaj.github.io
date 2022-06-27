@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-// * Will be used post concepts understanding
+// * Will be used post concepts understanding 
 // const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
