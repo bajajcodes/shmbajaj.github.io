@@ -1,12 +1,15 @@
 {
   "name": "shmbajaj.github.io",
   "version": "2.0.0",
+  "homepage":"https://shmbajaj.github.io/",
   "description": "This is portfolio website",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch --progress --mode production",
     "build": "webpack --progress --mode production",
-    "start": "webpack serve --open --mode development"
+    "start": "webpack serve --open --mode development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
