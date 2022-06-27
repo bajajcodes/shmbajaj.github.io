@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+// * Will be used post concepts understanding
+// const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -22,7 +23,7 @@ module.exports = {
       title: "Shubham Bajaj Portfolio",
       template: path.join(__dirname, "public", "index.html"),
     }),
-    new CssMinimizerPlugin(),
+    // new CssMinimizerPlugin(),
   ],
   module: {
     rules: [
@@ -33,11 +34,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: [
-          "style-loader",
-          "css-loader",
-          "postcss-loader",
-        ],
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg)$/i,
@@ -56,7 +53,7 @@ module.exports = {
         },
       },
     },
-    minimizer: [new CssMinimizerPlugin()],
+    // minimizer: [new CssMinimizerPlugin()],
   },
   resolve: {
     extensions: ["*", ".js", ".jsx"],

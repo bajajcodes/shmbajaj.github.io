@@ -1,13 +1,7 @@
-import devUi from "./images/dev-ui.png";
-import store from "./images/3on3store-react.png";
-import tube from "./images/3on3tube.png";
-import doer from "./images/3on3doer.png";
-import social from "./images/3on3social.png";
-
 const portfolio = [
   {
     id: "devUi",
-    imageUrl: devUi,
+    imageUrl: "https://raw.githubusercontent.com/shmbajaj/files-hosted/master/dev-ui.png",
     projectUrl: "https://dev-ui.netlify.app/",
     codeUrl: "https://github.com/shmbajaj/developersui",
     title: "Developers UI",
@@ -17,7 +11,7 @@ const portfolio = [
   },
   {
     id: "3on3Store",
-    imageUrl: store,
+    imageUrl: "https://raw.githubusercontent.com/shmbajaj/files-hosted/master/3on3store-react.png",
     projectUrl: "https://3on3store-react.netlify.app/",
     codeUrl: "https://github.com/shmbajaj/3on3store-react",
     title: "3on3 Store",
@@ -35,7 +29,7 @@ const portfolio = [
   },
   {
     id: "3on3Tube",
-    imageUrl: tube,
+    imageUrl: "https://raw.githubusercontent.com/shmbajaj/files-hosted/master/3on3tube.png",
     projectUrl: "https://3on3tube.netlify.app/",
     codeUrl: "https://github.com/shmbajaj/3on3Tube",
     title: "3on3 Tube",
@@ -53,7 +47,7 @@ const portfolio = [
   },
   {
     id: "3on3Doer",
-    imageUrl: doer,
+    imageUrl: "https://raw.githubusercontent.com/shmbajaj/files-hosted/master/3on3doer.png",
     projectUrl: "https://3on3doer.netlify.app/",
     codeUrl: "https://github.com/shmbajaj/3on3Doer",
     title: "3on3 Doer",
@@ -72,7 +66,7 @@ const portfolio = [
   },
   {
     id: "3on3Social",
-    imageUrl: social,
+    imageUrl: "https://raw.githubusercontent.com/shmbajaj/files-hosted/master/3on3social.png",
     projectUrl: "https://3on3social.netlify.app/",
     codeUrl: "https://github.com/shmbajaj/3on3Social",
     title: "3on3 Social",
