@@ -4,7 +4,7 @@
   "description": "This is portfolio website",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch --progress --mode development",
+    "watch": "webpack --watch --progress --mode production",
     "build": "webpack --progress --mode production",
     "start": "webpack serve --open --mode development"
   },
@@ -25,10 +25,13 @@
     "autoprefixer": "^10.4.7",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
     "postcss-loader": "^7.0.0",
     "postcss-preset-env": "^7.7.2",
+    "simple-icons": "^7.2.0",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.1.4",
     "webpack": "^5.73.0",
@@ -37,6 +40,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.8.7"
   }
 }
