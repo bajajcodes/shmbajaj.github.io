@@ -10,7 +10,7 @@ function Home() {
       <section className="max-w-screen-lg h-full mx-auto px-4 flex flex-col-reverse items-center justify-center gap-8 md:flex-row">
         <div className="h-full flex flex-col justify-center items-center">
           <h2 className="text-4xl sm:text-7xl font-bold text-white text-center">
-            I'm a Engineer
+            I'm an Engineer
           </h2>
           <p className="max-w-md p-4 md:px-0 md:py-4 text-gray-400 leading-7">
             I have 1.5 years of experience as process automation developer. Now,
