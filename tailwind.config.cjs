@@ -7,7 +7,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      brandSignature: ["Great Vibes"],
+      brandSignature: ["Salsa"],
     },
   },
   plugins: [],
